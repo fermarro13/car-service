@@ -14,7 +14,7 @@ import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 @RestController
-@RequestMapping("/cars")
+@RequestMapping("/v1/cars")
 public class CarRestController {
 
     private final CarSvc carSvc;
